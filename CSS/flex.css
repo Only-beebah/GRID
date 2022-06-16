@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+.one {
+    width: 300px;
+    background-color: red;
+    padding: 50px;
+}
+.two {
+    width: 130px;
+    background-color: orange;
+    padding: 50px;
+}
+.three {
+    width: 100px;
+    padding: 110px;
+    background-color: green;
+}
+.four {
+    width: 209px;
+    padding: 50px;
+    background-color: blue;
+    margin-bottom: 18px;
+}
+.five{
+    width: 209px;
+    padding: 50px;
+    background-color: gold;
+    
+}
+.container {
+    width: 700px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.one, .two {
+    float: left;
+    margin: 5px;
+}
+.three, .get {
+    float: left;
+    margin: 5px;
+}
+.get {
+    margin: 5px;
+}

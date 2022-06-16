@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    margin: auto;
+    width: 630px;
+    height: 380px;
+    margin-top: 100px;
+}
+h3 {
+    margin-left: 30px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 95%);
+}
+p {
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.var {
+    background-color: hsl(31, 77%, 52%);
+}
+.let {
+    background-color: hsl(184, 100%, 22%);
+}
+.const {
+    background-color: hsl(179, 100%, 13%);
+}
+.one, .two, .three {
+    width: 120px;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 40px;
+    border-color: white;
+}
+.one:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+.two:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+.three:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+.one {
+    color: orange;
+}
+.two {
+    color: hsl(184, 100%, 22%);
+}
+.three {
+    color: hsl(179, 100%, 13%);
+}
+.memo {
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.grid {
+    width: 90px;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-left: 50px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+li a {
+    color: white;
+    text-decoration: 0px;
+}
