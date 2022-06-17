@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(bg-intro-desktop.png) no-repeat;
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%);
+}
+.container {
+    padding-top: 200px;
+    margin-left: 100px;
+    color: whitesmoke;
+}
+.wrapper {
+    display: block;
+    margin-top: 50px;
+    margin-right: 100px;  
+}
+.memo {
+    font-size: 12px;
+    color: whitesmoke;
+}
+.col {
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: hsl(249, 10%, 26%);
+    box-shadow: 5px 5px 5px #333;
+    border: none;
+    color: white;
+}
+
+h3 {
+    font-size: 50px;
+    margin-bottom: 17px;
+}
+.last {
+    border: 1px solid #000;
+    width: 500px;
+    height: 440px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+}
+.heavy {
+     display: flex;
+     justify-content: space-between;
+}
+input[type="submit"] {
+    width: 400px;
+    padding: 18px;
+    margin-left: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: hsl(154,59%,51%);
+    color: white;
+}
+
+.make {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+input[type="text"] {
+    width: 400px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: black;
+    padding: 18px;
+}
+.dee {
+    color: red;
+}
+::placeholder {
+    color: #000;
+    font-weight: bold;
+}
+@import url(https://fonts.google.com/specimen/Poppins);
+
+@media screen and (min-width: 375px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
